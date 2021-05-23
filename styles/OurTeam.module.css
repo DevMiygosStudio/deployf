@@ -1,0 +1,12 @@
+.teamImgContainer {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.imgContainer {
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(100%);
+}

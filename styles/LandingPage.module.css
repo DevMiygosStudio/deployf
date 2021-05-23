@@ -1,0 +1,24 @@
+.landingContainer {
+  height: 95vh;
+}
+
+.landingTitle {
+  font-weight: bold;
+}
+.landingQuote {
+  font-size: 1.5rem;
+ 
+}
+
+.imgContainer {
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+@media (max-width: 500px) {
+  .landingContainer {
+    margin-top: 5em;
+    height: auto;
+  }
+}

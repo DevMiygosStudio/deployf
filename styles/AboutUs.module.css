@@ -1,0 +1,36 @@
+.imgContainer {
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(100%);
+}
+.aboutContent {
+  font-size: 1.3rem;
+}
+.aboutContent h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: inline-block;
+
+  text-decoration: none;
+  background-image: linear-gradient(to right, black, purple);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 50% 2px;
+  transition: background-size 0.5s ease;
+}
+
+.aboutContent h3:hover {
+  background-size: 100% 2px;
+}
+.about {
+  margin-top: 50px;
+}
+.about blockquote::before {
+  content: open-quote;
+}
+.about blockquote::after {
+  content: close-quote;
+}
+.about blockquote {
+  quotes: "“" "”" "‘" "’";
+}
